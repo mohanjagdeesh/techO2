@@ -93,7 +93,7 @@ const Login = () => {
                   {...register("password")}
                   required
                 />
-                <button>
+                <button type="button">
                   {inputs.passwordVisibility ? (
                     <BsEyeSlashFill
                       className=" h-[25px] w-[25px]"

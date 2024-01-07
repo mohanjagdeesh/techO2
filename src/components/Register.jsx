@@ -176,7 +176,7 @@ const Register = () => {
                 {...register("password")}
                 required
               />
-              <button>
+              <button type="button">
                 {inputs.passwordVisibility ? (
                   <BsEyeSlashFill
                     className=" h-[25px] w-[25px]"
@@ -217,7 +217,7 @@ const Register = () => {
                 {...register("confirmPassword")}
                 required
               />
-              <button>
+              <button type="button">
                 {inputs.confirmPasswordVisibility ? (
                   <BsEyeSlashFill
                     className=" h-[25px] w-[25px]"
